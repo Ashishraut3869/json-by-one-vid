@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>json object data fetching using dot and subscript</p>
+    <div id="first"></div>
+    <script>
+        let myjson={"name":"ashish","age":23,"lastNmae":"raut"};
+        let fname=myjson.name;
+        let lastNmae=myjson.lastNmae;
+        let age=myjson["age"];
+        document.getElementById("first").innerHTML="name:"+fname+" <br>"+lastNmae+" "+age;
+    </script>
+</body>
+</html>
